@@ -2,6 +2,7 @@
 
 #takes .bam files from fastq_to_bam script and generates normalized .bed coverage files with coverage normalized to unbroken ring
 #requires covdiv and winavg (https://github.com/jgbaldwinbrown/fastats)
+#requires bedtools, samtools
 #unbroken ring bedgraph files were generated using the bedtools genomecov -ibam command without follow-up steps
 
 # reference (input unbroken ring .bed coverage file)
